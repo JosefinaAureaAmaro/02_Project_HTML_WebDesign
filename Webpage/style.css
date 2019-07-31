@@ -1,0 +1,78 @@
+body {
+    
+    background-color: white; 
+}
+
+
+
+#summary_page {
+    background-image: url(../Images/summary_page_header.jpg);
+    background-size: cover;
+    color: white;     
+}
+
+
+#water_quality {
+    background-image: url(../Images/water_quality.jpg);
+    background-size: cover;
+    color: white;      
+}
+
+#water_source {
+    background-image: url(../Images/water_source_header.jpg);
+    background-size: cover;
+    color: white;  
+}
+
+
+#air_pollution {
+    background-image: url(../Images/air_pollution_header.jpg);
+    background-size: cover;
+    color: white;      
+}
+
+#endangered_species {
+    background-image: url(../Images/endangered_species_header.jpg);
+    background-size: cover;
+    color: white;      
+}
+
+#data_tables {
+    background-image: url(../Images/data_header.jpg);
+    background-size: cover;
+    color: white;   
+}
+
+.navbar {
+    background-color: white;
+    
+}
+
+nav {
+    background-color: white;
+}
+
+.bins {
+    background-color: white; 
+    margin-top: 50px; 
+    margin-right: 20px; 
+    margin-left: 20px;
+}
+
+th, td {
+    white-space:  nowrap;
+}
+#footer {
+    background-color: #ccd3de;
+    bottom: 0;
+    width: 100%;
+    position:relative
+         /* Footer height */
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Georgia, serif;
+    color: #3e525c; 
+}
+

@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <!--- nav --->
+<!--- nav --->
   <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="index.html">
     <img src="../Images/icons8-earth-planet-48.png" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -56,58 +56,54 @@
       </form>
     </div>
   </nav>
-    
-<! -- Header -->
+<! --- Header -->
+<div class="jumbotron jumbotron-fluid" id="water_quality">
   <div class="container">
-    <div class="jumbotron">
-      <h1 class="display-4">The Climate Facts</h1>
-      <p class="lead">  | Water Quality | Access to Safe Water Source | Life Lost due to Pollution | Endangered Species |</p>
-      <hr class="my-4">
-      <p>The page was inspired by The Economist Article published November 5, 2016 titled "The dry facts".</p>
-      <p>The data was provided by OECD.stat, which acquries it's data from a number of global databases and national statistic bureaus. </p>
-    </div>
+    <h1 class="display-4">Water Quality</h1>
   </div>
-
-<! -- Start of Page -->
-
-<div class="container">
-  <h3 class="text-center">Information</h3>
-    <div class="row">
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="../Images/the_economist_visualization.png" alt="Economist Image" class="img-thumbnail">
-          </div>
-          <div class="caption">
-              <h3>The Economist</h3>
-              <p>The image above is a forecast that shows the water stress per Country in 2040.</p>
-              <p><a href="https://www.economist.com/leaders/2016/11/05/the-dry-facts" target="_blank" class="btn btn-primary" role="button">Go to Article</a></p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="../Images/OECD_stat.PNG" alt="OECD Welcome" class="img-thumbnail">
-            </div>
-          <div class="caption">
-              <h3>Data Source</h3>
-              <p>Per OECD.stat "[the database includes] data and metadata for OECD countries and selected non-member economies."</p>
-              <p><a href="https://stats.oecd.org/" target="_blank" class="btn btn-primary" role="button">Access Data</a></p>
-          </div>
-        </div>
-        <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="../Images/beverage-books-coffee-1638502.jpg" alt="House plants" class="img-thumbnail">
-            </div>
-          <div class="caption">
-              <h3>DIY Projects</h3>
-              <p>Find ways to improve your footprint from your apartment!</p>
-              <p><a href="https://www.wikihow.com/Care-for-Indoor-Plants" class="btn btn-primary" target="_blank" role="button">Start a Project</a></p>
-          </div>
-        </div>
+</div>
+<! -- container for summary visualizations --> 
+<div class="container-fluid">
+   <div class="container">
+        <div class="row">
+            <! --- Large Container --->
+            <div class="col bins">
+                <h2 class="display">Data Summary</h2>
+                <hr class="my-2"> <!-- controls header line -->
+                <div class="large-image">
+                <a href='data.html'>
+                <img src="../Images/Nitrate_Water.png" class="img-fluid" alt="Water Quality"></a>
+                <p>
+                    The excess concentration of nitrate in lakes and other open source bodies of water can overstimulte the growth of aquatic plants and algae. This evenutally can "kill" the lake by depriving it of oxygen, which affects the use of the water for reconciational activities. 
+                <a href='https://www.usgs.gov/special-topic/water-science-school/science/nitrogen-and-water?qt-science_center_objects=0#qt-science_center_objects' target="_blank"> The source of the details for this testimony and more details regarding Nitrate can be found here. </a>
+                </p>
+                <p>
+                In the above graph Israel and New Zealand over the time span of 1997 to 2013 have open source water bodies with extrondinary high levels of nitrate. 
+                </p>
+                <p> High Levels of Nitrate have dangerous health affects in drinking water because it has been shown to cause "blue baby" syndrome, adverse pregnancy outcomes, and certain cancers. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6068531/" target="_blank"> As shown in a study published by the National Institutes of Health on Jul 23, 2018. </a> </p>
+                 
+                </div>
+            </div> 
+            <div class= "col bins">
+                <h2 class="display">Visualizations</h2>
+                <hr class="my-2"> 
+                  <div class="row">
+                      <div class="col"><a href='water_quality.html'><img src="../Images/Nitrate_Water.png" class="img-fluid" alt="Water Quality"></a></div>
+                    <div class="col"><a href='access_to_safe_water.html'><img src="../Images/Unsafe_Water_Source.png" class="img-fluid" alt="Unsafe Water Source"></a></div>
+                    <div class="w-100"></div>
+                    <div class="col"><a href='pollution_vs_mortality.html'><img src="../Images/Air_Pollution.png" class="img-fluid" alt="Air Pollution"></a></div>
+                    <div class="col"><a href='endangered_species.html'><img src="../Images/Threatened_Species.png" class="img-fluid" alt="Endangered Species"></a></div>
+            <!-- end of the row -->
+                </div>
+            </div>    
+        </div>        
     </div>
-  </div>
+</div>
+    
 <!-- sticky footer -->
 <footer id = "footer" style="text-align: center;" class="container-fluid">
         <span class="text-muted">&copy; 2019 Josefina Amaro Github</span>
 </footer>
 </body>
-</html>
+    
+    
