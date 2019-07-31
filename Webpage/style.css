@@ -4,6 +4,11 @@ body {
 }
 
 
+#intro {
+    background-image: url(../Images/intro_header.jpg);
+    background-size: cover;
+    
+}
 
 #summary_page {
     background-image: url(../Images/summary_page_header.jpg);
